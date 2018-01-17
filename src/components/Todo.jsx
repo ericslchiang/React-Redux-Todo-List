@@ -28,13 +28,13 @@ const Todo = ({id, text, onClick}) => {
     //         </div>
     //     )
     // }
-    // return(
-    //     <li
-    //         onClick={onClick}
-    //     >
-    //         {text}
-    //     </li>
-    // )
+    return(
+        <li
+            onClick={onClick}
+        >
+            {text}
+        </li>
+    )
 }
 
 export default Todo;

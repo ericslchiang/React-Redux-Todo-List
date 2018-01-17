@@ -12,8 +12,8 @@ const TodoList = ({todos, onTodoClick, onTodoChange}) => {
                 {...todo}
                 //NOTE TO SELF: this is just another way of passing props into the todo element.
                 //Writing text={todo.text} would be equivalent.  
-                // onClick={() => onTodoClick(todo.id)}
-                onClick={onTodoChange}
+                onClick={() => onTodoClick(todo.id)}
+                // onClick={onTodoChange}
                 //Testing changing the todo. change back to onTodoClick
             />
             ))}    
